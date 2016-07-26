@@ -20,3 +20,5 @@ SOA = [ ''+zoneSerial+'	; serial',
         '1D)		; minimum'
        ]
 ```
+
+run `bash get-hosts.sh` to fetch hosts file.
