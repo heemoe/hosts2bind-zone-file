@@ -1,16 +1,16 @@
 $TTL 1D
-@    IN SOA ns1.xxx.com. root.xxx.com.(
-20160721135804	; serial
+@    IN SOA ns1.pandadns.com. root.pandadns.com.(
+20160726165336	; serial
 3H		; refresh
 15M		; retry
 1W		; expiry
 1D)		; minimum
-@  IN NS ns1.xxx.com.
+@  IN NS ns1.pandadns.com.
 ; Copyright (c) 2014-2016, racaljk.
 
 ; https://github.com/racaljk/hosts
 
-; Last updated: 2016-07-21
+; Last updated: 2016-07-25
 
     IN A    
 ; This work is licensed under a CC BY-NC-SA 4.0 International License.
@@ -96,6 +96,58 @@ icons.duckduckgo.com    IN A    54.251.178.52
 images.duckduckgo.com    IN A    54.251.178.52
 help.duckduckgo.com    IN A    96.45.83.209
 ; DuckDuckGo End
+
+    IN A    
+;Dropbox Start
+
+db.tt    IN A    218.254.1.13
+dropbox.com    IN A    218.254.1.13
+m.dropbox.com    IN A    218.254.1.13
+www.v.dropbox.com    IN A    218.254.1.13
+www.dropbox.com    IN A    162.125.66.1
+d.dropbox.com    IN A    108.160.172.193
+d.v.dropbox.com    IN A    108.160.172.193
+api-d.dropbox.com    IN A    108.160.172.193
+api.dropboxapi.com    IN A    108.160.172.237
+api.dropbox.com    IN A    108.160.172.237
+api.v.dropbox.com    IN A    108.160.172.237
+api-notify.dropbox.com    IN A    108.160.172.237
+www.dropboxstatic.com    IN A    108.160.172.233
+cfl.dropboxstatic.com    IN A    104.16.100.29
+dbxlocal.dropboxstatic.com    IN A    108.160.172.201
+api-content.dropbox.com    IN A    199.47.217.36
+api-content-photos.dropbox.com    IN A    199.47.217.36
+photos.dropbox.com    IN A    108.160.172.207
+bolt.dropbox.com    IN A    162.125.34.129
+photos-thumb.dropbox.com    IN A    162.125.17.129
+photos-thumb.x.dropbox.com    IN A    162.125.17.129
+block.dropbox.com    IN A    199.47.217.97
+block.v.dropbox.com    IN A    199.47.217.97
+cf.dropboxstatic.com    IN A    54.230.214.100
+client-cf.dropbox.com    IN A    54.192.108.33
+dl.dropbox.com    IN A    45.58.69.38
+dl-web.dropbox.com    IN A    219.76.4.4
+dl.dropboxusercontent.com    IN A    45.58.69.37
+photos-1.dropbox.com    IN A    162.125.18.2
+photos-2.dropbox.com    IN A    162.125.18.2
+photos-2.dropbox.com    IN A    162.125.18.2
+photos-3.dropbox.com    IN A    162.125.18.2
+photos-4.dropbox.com    IN A    162.125.18.2
+photos-5.dropbox.com    IN A    162.125.18.2
+photos-6.dropbox.com    IN A    162.125.18.2
+status.dropbox.com    IN A    54.192.213.118
+marketing.dropbox.com    IN A    54.192.213.118
+blogs.dropbox.com    IN A    54.192.213.118
+forums.dropbox.com    IN A    54.192.213.118
+snapengage.dropbox.com    IN A    54.192.213.118
+notify.dropbox.com    IN A    162.125.32.129
+client-lb.dropbox.com    IN A    108.160.172.236
+client-web.dropbox.com    IN A    108.160.172.236
+client.dropbox.com    IN A    108.160.172.236
+client.v.dropbox.com    IN A    108.160.172.236
+dl-debug.dropbox.com    IN A    219.76.4.4
+log.getdropbox.com    IN A    219.76.4.4
+;Dropbox End
 
     IN A    
 ; Facebook start
@@ -3904,7 +3956,7 @@ travis-ci-org.global.ssl.fastly.net    IN A    103.245.222.249
     IN A    
 ; Github start
 
-gist.github.com    IN A    192.30.253.119
+gist.github.com    IN A    192.30.253.112
 ; Github end
 
     IN A    

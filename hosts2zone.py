@@ -2,11 +2,11 @@
 import re
 import datetime
 #Files Involved
-hostsFile="/etc/hosts"
-outputZoneFile="/Users/user/Desktop/hosts.zone"
+hostsFile="hosts"
+outputZoneFile="hosts.zone"
 nameServer="ns1"
 # I don't know what the means of following fields. Just copied from others.
-domainName="xxx.com"
+domainName="pandadns.com"
 zoneSerial=datetime.datetime.strftime(datetime.datetime.now(), '%Y%m%d%H%M%S')
 refresh = "3H"
 retry = "15M"
