@@ -1,0 +1,23 @@
+--2016-07-28 15:38:28--  https://raw.githubusercontent.com/racaljk/hosts/master/hosts
+Resolving raw.githubusercontent.com... 151.101.36.133
+Connecting to raw.githubusercontent.com|151.101.36.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 150667 (147K) [text/plain]
+Saving to: 'hosts'
+
+hosts                12%[=>                  ]  17.92K  47.5 B/s    eta 46m 28shosts                14%[=>                  ]  20.61K  46.6 B/s    eta 46m 20shosts                14%[=>                  ]  20.61K  46.6 B/s    in 7m 33s  
+
+2016-07-28 16:01:36 (46.6 B/s) - Read error at byte 21109/150667 (Success). Retrying.
+
+--2016-07-28 16:01:37--  (try: 2)  https://raw.githubusercontent.com/racaljk/hosts/master/hosts
+Connecting to raw.githubusercontent.com|151.101.36.133|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 150667 (147K), 129558 (127K) remaining [text/plain]
+Saving to: 'hosts'
+
+     0K ,,,,,,,,,, ,,,,,,,,,, .......... .......... .......... 33% 98.6  28m36s
+    50K .......... .......... .......... .......... .......... 67%  130  9m1s
+   100K .......... .......... .......... .......... .......   100% 18.5K=15m15s
+
+2016-07-28 16:17:13 (142 B/s) - 'hosts' saved [150667/150667]
+

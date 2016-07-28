@@ -1,6 +1,6 @@
 $TTL 1D
 @    IN SOA ns1.pandadns.com. root.pandadns.com.(
-20160726165336	; serial
+20160728162949	; serial
 3H		; refresh
 15M		; retry
 1W		; expiry
@@ -12,20 +12,16 @@ $TTL 1D
 
 ; Last updated: 2016-07-25
 
-    IN A    
 ; This work is licensed under a CC BY-NC-SA 4.0 International License.
 
 ; https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-    IN A    
 ; Localhost (DO NOT REMOVE)
 
 localhost    IN A    127.0.0.1
 broadcasthost    IN A    255.255.255.255
-    IN A    
 ; Modified hosts start
 
-    IN A    
 ; Amazon AWS Start
 
 ap-northeast-1.console.aws.amazon.com    IN A    27.0.1.125
@@ -52,14 +48,12 @@ github-cloud.s3.amazonaws.com    IN A    54.231.34.41
 github-com.s3.amazonaws.com    IN A    54.231.48.40
 ; Amazon AWS End
 
-    IN A    
 ; Archive Start
 
 archive.org    IN A    207.241.224.22
 web.archive.org    IN A    207.241.226.190
 ; Archive End
 
-    IN A    
 ; Battle.NET Start
 
 enUS.patch.battle.net    IN A    12.129.206.133
@@ -67,7 +61,6 @@ llnw.blizzard.com    IN A    208.111.148.7
 zhTW.patch.battle.net    IN A    121.254.200.133
 ; Battle.NET End
 
-    IN A    
 ; Box.com Start
 
 app.box.com    IN A    74.112.184.70
@@ -78,7 +71,6 @@ www.box.com    IN A    74.112.184.85
 www.box.net    IN A    74.112.184.80
 ; Box.com End
 
-    IN A    
 ; BundleStars Start
 
 bundlestars.com    IN A    23.253.146.21
@@ -86,7 +78,6 @@ cdn-images.bundlestars.com    IN A    54.192.232.60
 support.bundlestars.com    IN A    185.12.83.2
 ; BundleStars End
 
-    IN A    
 ; DuckDuckGo Start
 
 duckduckgo.com    IN A    46.51.216.186
@@ -97,7 +88,6 @@ images.duckduckgo.com    IN A    54.251.178.52
 help.duckduckgo.com    IN A    96.45.83.209
 ; DuckDuckGo End
 
-    IN A    
 ;Dropbox Start
 
 db.tt    IN A    218.254.1.13
@@ -149,7 +139,6 @@ dl-debug.dropbox.com    IN A    219.76.4.4
 log.getdropbox.com    IN A    219.76.4.4
 ;Dropbox End
 
-    IN A    
 ; Facebook start
 
 fb.me    IN A    31.13.95.17
@@ -298,14 +287,12 @@ messengerplatform.fb.com    IN A    192.0.66.2
 threatexchange.fb.com    IN A    199.201.64.67
 ; Facebook end
 
-    IN A    
 ; FlipBoard start
 
 beacon.flipboard.com    IN A    54.225.64.251
 fbprod.flipboard.com    IN A    54.225.64.251
 ; FlipBoard End
 
-    IN A    
 ; Twitter Start
 
 twitter.com    IN A    104.244.42.1
@@ -408,7 +395,6 @@ preview.cdn.twitter.com    IN A    104.244.42.1
 apps.twitter.com    IN A    104.244.42.3
 ; Twitter End
 
-    IN A    
 ; Gmail web Start
 
 chatenabled.mail.google.com    IN A    220.255.2.153
@@ -425,7 +411,6 @@ www.gmail.com    IN A    220.255.2.153
 mail-settings.google.com    IN A    220.255.2.153
 ; Gmail web End
 
-    IN A    
 ; Google Start
 
 www.google.com    IN A    220.255.2.153
@@ -993,7 +978,6 @@ www.domains.google    IN A    220.255.2.153
 registry.google    IN A    220.255.2.153
 servicemanagement.clients6.google.com    IN A    220.255.2.153
 cloudconsole-pa.clients6.google.com    IN A    220.255.2.153
-    IN A    
 ; gstatic Start
 
 geo0.ggpht.com    IN A    220.255.2.153
@@ -1063,7 +1047,6 @@ t2.gstatic.com    IN A    220.255.2.153
 t3.gstatic.com    IN A    220.255.2.153
 ; gstatic End
 
-    IN A    
 ; Googleapis Start
 
 chart.apis.google.com    IN A    220.255.2.153
@@ -1109,7 +1092,6 @@ code.getmdl.io    IN A    64.233.188.121
 
 ;Googleaps End
 
-    IN A    
 www.googlehosted.com    IN A    220.255.2.153
 base.googlehosted.com    IN A    220.255.2.153
 base0.googlehosted.com    IN A    220.255.2.153
@@ -1319,7 +1301,6 @@ market.android.com    IN A    220.255.2.153
 play.google.com    IN A    220.255.2.153
 payments.google.com    IN A    220.255.2.153
 android.clients.google.com    IN A    220.255.2.153
-    IN A    
 ; Googleusercontent Start
 
 www.googleusercontent.com    IN A    220.255.2.153
@@ -2565,7 +2546,6 @@ wave-opensocial.googleusercontent.com    IN A    220.255.2.153
 40-wave-opensocial.googleusercontent.com    IN A    220.255.2.153
 ; Googleusercontent End
 
-    IN A    
 toolbox.googleapps.com    IN A    220.255.2.153
 m.google.com    IN A    220.255.2.153
 m.google.com.hk    IN A    220.255.2.153
@@ -2626,7 +2606,6 @@ s.ytimg.com    IN A    220.255.2.153
 manifest.googlevideo.com    IN A    220.255.2.153
 onetoday.google.com    IN A    64.233.162.83
 notifications.google.com    IN A    64.233.162.83
-    IN A    
 ; Google:others Start
 
 google.ad    IN A    220.255.2.153
@@ -3032,7 +3011,6 @@ www.androidexperiments.com    IN A    64.233.191.121
 androidexperiments.com    IN A    64.233.191.121
 ; Google:others End
 
-    IN A    
 ; Gmail SMTP/POP/IMAP Start
 
 gmail-imap.l.google.com    IN A    64.233.188.109
@@ -3052,7 +3030,6 @@ gmail-smtp-in.l.google.com    IN A    64.233.188.27
 gmr-smtp-in.l.google.com    IN A    64.233.188.14
 ; Gmail SMTP/POP/IMAP End
 
-    IN A    
 ; Google:stun Server Start
 
 stun.l.google.com    IN A    64.233.177.127
@@ -3063,7 +3040,6 @@ alt4.stun.l.google.com    IN A    64.233.177.127
 alt5.stun.l.google.com    IN A    64.233.177.127
 ; Google:stun Server End
 
-    IN A    
 ; Google:Gtalk	Start
 
 talk.google.com    IN A    64.233.188.125
@@ -3072,7 +3048,6 @@ talkx.l.google.com    IN A    64.233.188.125
 alt1.talk.l.google.com    IN A    64.233.188.125
 ; Google:Gtalk	End
 
-    IN A    
 ; Google:ghs Start
 
 ghs.google.com    IN A    64.233.188.121
@@ -3108,7 +3083,6 @@ www.googlezeitgeist.com    IN A    64.233.188.121
 news.dartlang.org    IN A    64.233.188.121
 ; Google:ghs End
 
-    IN A    
 ; Google:gcm Start
 
 mobile-gtalk.l.google.com    IN A    64.233.188.188
@@ -3120,20 +3094,17 @@ gcm-preprod.l.google.com    IN A    64.233.188.188
 gcm-preprod.googleapis.com    IN A    64.233.188.188
 ; Google:gcm End
 
-    IN A    
 ; Google:A-GPS Start
 
 supl.google.com    IN A    64.233.171.192
 ; Google:A-GPS End
 
-    IN A    
 ; Google:Made the code for girls Start
 
 madewithcode.com    IN A    216.239.38.21
 www.madewithcode.com    IN A    216.239.38.21
 ; Google:Made the code for girls End
 
-    IN A    
 ; Google CN Start
 
 ; 203.208.41.144	0.gvt0.cn
@@ -3244,7 +3215,6 @@ www.madewithcode.com    IN A    216.239.38.21
 
 ; Google End
 
-    IN A    
 ; HumbleBundle Start
 
 humble.pubnub.com    IN A    5.153.35.171
@@ -3254,7 +3224,6 @@ pubnub.com    IN A    52.36.140.12
 www.humblebundle.com    IN A    74.125.34.32
 ; HumbleBundle End
 
-    IN A    
 ; imgur Start
 
 imgur.com    IN A    103.245.222.193
@@ -3263,21 +3232,18 @@ i.imgur.com    IN A    103.245.222.193
 s.imgur.com    IN A    103.245.222.193
 ; imgur End
 
-    IN A    
 ; Indiegala Start
 
 www.indiegala.com    IN A    199.83.129.61
 www.galagiveaways.com    IN A    74.125.29.121
 ; Indiegala End
 
-    IN A    
 ; inoreader Start
 
 inoreader.com    IN A    92.247.181.40
 www.inoreader.com    IN A    92.247.181.40
 ; inoreader End
 
-    IN A    
 ; Instagram Start
 
 instagram.com    IN A    31.13.70.52
@@ -3649,7 +3615,6 @@ distilleryimage11.ak.instagram.com    IN A    184.51.15.142
 telegraph-ec2proxy.instagram.com    IN A    220.250.64.225
 ; Instagram End
 
-    IN A    
 ; Ixquick Start
 
 www.ixquick.com    IN A    69.90.210.184
@@ -3698,13 +3663,11 @@ s19-us2.ixquick.com    IN A    69.90.210.184
 s20-us2.ixquick.com    IN A    69.90.210.184
 ; Ixquick End
 
-    IN A    
 ; Logmein Start
 
 secure.logmein.com    IN A    77.242.192.193
 ; Logmein End
 
-    IN A    
 ; MEGA Start
 
 eu.api.mega.co.nz    IN A    31.216.147.135
@@ -3715,7 +3678,6 @@ mega.nz    IN A    154.53.224.166
 w.api.mega.co.nz    IN A    31.216.147.130
 ; MEGA End
 
-    IN A    
 ; OneDrive Start
 
 account.live.com    IN A    65.55.163.79
@@ -3732,7 +3694,6 @@ storage.live.com    IN A    134.170.104.168
 nhuhga.dm2301.livefilestore.com    IN A    204.79.197.213
 ; OneDrive End
 
-    IN A    
 ; SoundCloud Start
 
 soundcloud.com    IN A    93.184.220.127
@@ -3791,7 +3752,6 @@ sb.scorecardresearch.com    IN A    104.118.93.251
 style.sndcdn.com    IN A    93.184.220.96
 ; SoundCloud End
 
-    IN A    
 ; Startpage Start
 
 startpage.com    IN A    37.0.88.36
@@ -3801,7 +3761,6 @@ support.startpage.com    IN A    37.0.88.36
 blog.startpage.com    IN A    37.0.88.36
 ; Startpage End
 
-    IN A    
 ; Vimeo Start
 
 vimeo.com    IN A    104.156.85.217
@@ -3813,14 +3772,12 @@ vimeo-hp-videos.global.ssl.fastly.net    IN A    103.245.222.249
 click.email.vimeo.com    IN A    198.245.92.39
 ; Vimeo End
 
-    IN A    
 ; Wikipedia Start
 
 zh.wikipedia.org    IN A    198.35.26.96
 zh.m.wikipedia.org    IN A    198.35.26.97
 ; Wikipedia End
 
-    IN A    
 ; WordPress Start
 
 www.gravatar.com    IN A    68.232.44.121
@@ -3859,7 +3816,6 @@ zh-cn.wordpress.com    IN A    66.155.9.238
 zh-sg.wordpress.com    IN A    66.155.9.238
 ; WordPress End
 
-    IN A    
 ; XDA Start
 
 cdn.www.xda-developers.com    IN A    68.232.44.229
@@ -3879,7 +3835,6 @@ www.xda-developers.com    IN A    207.244.73.44
 xda-developers.com    IN A    207.244.73.44
 ; XDA End
 
-    IN A    
 ; Yahoo Start
 
 code.flickr.com    IN A    192.0.79.32
@@ -3947,32 +3902,27 @@ ying.com    IN A    77.238.184.150
 downloadr.flickr.com    IN A    183.177.81.75
 ; Yahoo End
 
-    IN A    
 ; Travis CI fastly CDN Start
 
 travis-ci-org.global.ssl.fastly.net    IN A    103.245.222.249
 ; Travis CI fastly CDN End
 
-    IN A    
 ; Github start
 
 gist.github.com    IN A    192.30.253.112
 ; Github end
 
-    IN A    
 ;TensorFlow start
 
 www.tensorflow.org    IN A    64.233.188.121
 ;TensorFlow end
 
-    IN A    
 ; W3schools Start
 
 w3schools.com    IN A    68.232.44.251
 www.w3schools.com    IN A    68.232.44.251
 ; W3schools End
 
-    IN A    
 ; Medium start
 
 medium.com    IN A    104.16.120.127
@@ -3981,7 +3931,6 @@ cdn-images-1.medium.com    IN A    104.16.120.145
 cdn-images-2.medium.com    IN A    103.245.222.101
 ; Medium end
 
-    IN A    
 ; Tumblr Start
 
 tumblr.com    IN A    66.6.42.30
@@ -4019,14 +3968,12 @@ secure.static.tumblr.com    IN A    54.230.213.90
 secure.static.tumblr.com    IN A    54.230.74.143
 ; Tumblr End
 
-    IN A    
 ; Smartdnsproxy start
 
 www.smartdnsproxy.com    IN A    103.28.248.96
 support.smartdnsproxy.com    IN A    184.72.50.35
 ; Smartdnsproxy end
 
-    IN A    
 ; apkpure Start
 
 apkpure.com    IN A    108.163.178.42
@@ -4037,6 +3984,5 @@ translate.apkpure.com    IN A    108.163.178.42
 download.apkpure.com    IN A    46.17.101.80
 ; apkpure End
 
-    IN A    
 ; Modified hosts end
 

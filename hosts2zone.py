@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import re
 import datetime
-#Files Involved
+import os
 hostsFile="hosts"
 outputZoneFile="hosts.zone"
 nameServer="ns1"
@@ -33,10 +33,14 @@ def createZonesHeader():
                       )
     return zonesHeader
 
+os.system('rm hosts')
+os.system('wget https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts')
+
 createZonesHeader()
 FILE = open(hostsFile,'r')
 WriteFILE = open(outputZoneFile,'w+')
 WriteFILE.write(createZonesHeader())
+count = 0;
 for line in FILE:
     tmp=line.rstrip('|n')
     tmp=re.sub('\s+',' ',tmp)
@@ -51,13 +55,18 @@ for line in FILE:
         if '#' in line[0]:
             line = line.replace('#',';',1)
             oneZone = line
+        elif len(line) == 0 and len(line) == 1:
+            print('blank line')
+            oneZone = '\n'
         else:
             oneZone = ipname + '    IN A    ' + ipaddress
     except:
-        if line == '\n':
-            oneZone = ''
+        print('error line')
 # output zone file
-    print(oneZone)
+    if len(oneZone) == 12 and not ';' in line:
+        count += 1
+        print(oneZone + str(count))
+        continue
     WriteFILE.write(oneZone+'\n')
 FILE.close()
 WriteFILE.close()
