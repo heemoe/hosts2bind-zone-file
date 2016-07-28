@@ -21,4 +21,4 @@ SOA = [ ''+zoneSerial+'	; serial',
        ]
 ```
 
-run `bash get-hosts.sh` to fetch hosts file.
+run `python3 hosts2zone.py` to fetch hosts file and generate a `hosts.zone` file.
