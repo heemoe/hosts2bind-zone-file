@@ -21,4 +21,6 @@ SOA = [ ''+zoneSerial+'	; serial',
        ]
 ```
 
-run `python3 hosts2zone.py` to fetch hosts file and generate a `hosts.zone` file.
+- modify path string of `line 37` to your hosts file path. 
+
+- run `python3 hosts2zone.py` to fetch hosts file and generate a `hosts.zone` file.

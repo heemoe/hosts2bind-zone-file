@@ -40,7 +40,7 @@ createZonesHeader()
 FILE = open(hostsFile,'r')
 WriteFILE = open(outputZoneFile,'w+')
 WriteFILE.write(createZonesHeader())
-count = 0;
+# count = 0
 for line in FILE:
     tmp=line.rstrip('|n')
     tmp=re.sub('\s+',' ',tmp)
@@ -64,8 +64,8 @@ for line in FILE:
         print('error line')
 # output zone file
     if len(oneZone) == 12 and not ';' in line:
-        count += 1
-        print(oneZone + str(count))
+        # count += 1
+        # print(oneZone + str(count))
         continue
     WriteFILE.write(oneZone+'\n')
 FILE.close()
