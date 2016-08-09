@@ -75,7 +75,8 @@ for line in FILE:
     WriteFILE.write(oneZone+'\n')
 FILE.close()
 WriteFILE.close()
-getChar = raw_input('Enter Y to replace named file, Enter other finish')
+os.system('Enter Y to replace named file, Enter other finish')
+getChar = raw_input()
 if getChar == 'Y' or 'y' or '':
     os.system('echo ------ start replace named file -----')
     os.system('mv' + ' ' + targetZoneFile + ' ' + targetZoneFile + '.bak')
