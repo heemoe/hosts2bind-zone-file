@@ -75,13 +75,13 @@ for line in FILE:
     WriteFILE.write(oneZone+'\n')
 FILE.close()
 WriteFILE.close()
-os.system('Enter Y to replace named file, Enter other finish')
+os.system('echo Enter y to replace named file, Enter other finish')
 getChar = raw_input()
-if getChar == 'Y' or 'y' or '':
+if getChar == 'y':
     os.system('echo ------ start replace named file -----')
     os.system('mv' + ' ' + targetZoneFile + ' ' + targetZoneFile + '.bak')
     os.system('mv' + ' ' + outputZoneFile + ' ' + targetZoneFile)
-    os.system('replace done. :) ')
+    os.system('echo replace done. :) ')
     os.system('service named restart')
 else:
     os.system('echo process done. Please check your hosts.zone file.  :) ')
