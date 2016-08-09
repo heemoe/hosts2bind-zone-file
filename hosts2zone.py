@@ -78,7 +78,7 @@ WriteFILE.close()
 getChar = raw_input('Enter Y to replace named file, Enter other finish')
 if getChar == 'Y' or 'y' or '':
     os.system('echo ------ start replace named file -----')
-    os.system('mv' + targetZoneFile + ' ' + targetZoneFile + '.bak')
+    os.system('mv' + ' ' + targetZoneFile + ' ' + targetZoneFile + '.bak')
     os.system('mv' + ' ' + outputZoneFile + ' ' + targetZoneFile)
     os.system('replace done. :) ')
     os.system('service named restart')
