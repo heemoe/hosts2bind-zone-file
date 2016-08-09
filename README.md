@@ -3,12 +3,13 @@
 
 > edit the flowing code to custom attribute.
 ```
-#Files Involved
-hostsFile="/etc/hosts"
-outputZoneFile="/Users/user/Desktop/hosts.zone"
+#download hosts file path.
+hostsFile="hosts"
+#zone file save path.
+outputZoneFile="hosts.zone"
 nameServer="ns1"
 # I don't know what the means of following fields. Just copied from others.
-domainName="xxx.com"
+domainName="pandadns.com"
 zoneSerial=datetime.datetime.strftime(datetime.datetime.now(), '%Y%m%d%H%M%S')
 refresh = "3H"
 retry = "15M"
@@ -19,8 +20,8 @@ SOA = [ ''+zoneSerial+'	; serial',
         '1W		; expiry',
         '1D)		; minimum'
        ]
+)		; minimum'
+       ]
 ```
-
-- modify path string of `line 37` to your hosts file path. 
 
 - run `python3 hosts2zone.py` to fetch hosts file and generate a `hosts.zone` file.
