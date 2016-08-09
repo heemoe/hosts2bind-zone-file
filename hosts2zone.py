@@ -81,7 +81,7 @@ if getChar == 'y':
     os.system('echo ------ start replace named file -----')
     os.system('mv' + ' ' + targetZoneFile + ' ' + targetZoneFile + '.bak')
     os.system('mv' + ' ' + outputZoneFile + ' ' + targetZoneFile)
-    os.system('echo replace done. :) ')
+    os.system('echo replace done.')
     os.system('service named restart')
 else:
-    os.system('echo process done. Please check your hosts.zone file.  :) ')
+    os.system('echo process done. Please check your hosts.zone file.')
