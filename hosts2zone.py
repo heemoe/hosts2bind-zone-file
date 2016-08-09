@@ -6,6 +6,8 @@ import os
 hostsFile="hosts"
 #zone file save path.
 outputZoneFile="hosts.zone"
+#target named zone file path
+targetZoneFile="/usr/local/named/var/rpz.zone"
 nameServer="ns1"
 # I don't know what the means of following fields. Just copied from others.
 domainName="pandadns.com"
@@ -73,6 +75,12 @@ for line in FILE:
     WriteFILE.write(oneZone+'\n')
 FILE.close()
 WriteFILE.close()
-
-
-        
+getChar = raw_input('Enter Y to replace named file, Enter other finish')
+if getChar == 'Y' or 'y' or '':
+    os.system('echo ------ start replace named file -----')
+    os.system('mv' + targetZoneFile + ' ' + targetZoneFile + '.bak')
+    os.system('mv' + ' ' + outputZoneFile + ' ' + targetZoneFile)
+    os.system('replace done. :) ')
+    os.system('service named restart')
+else:
+    os.system('echo process done. Please check your hosts.zone file.  :) ')

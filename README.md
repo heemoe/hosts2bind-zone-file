@@ -7,6 +7,8 @@
 hostsFile="hosts"
 #zone file save path.
 outputZoneFile="hosts.zone"
+#target named zone file path
+targetZoneFile="/usr/local/named/var/rpz.zone
 nameServer="ns1"
 # I don't know what the means of following fields. Just copied from others.
 domainName="pandadns.com"
