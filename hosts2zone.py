@@ -2,7 +2,9 @@
 import re
 import datetime
 import os
+#download hosts file path.
 hostsFile="hosts"
+#zone file save path.
 outputZoneFile="hosts.zone"
 nameServer="ns1"
 # I don't know what the means of following fields. Just copied from others.
@@ -34,6 +36,7 @@ def createZonesHeader():
     return zonesHeader
 
 os.system('rm hosts')
+#your hosts file url. default save to current path.
 os.system('wget https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts')
 
 createZonesHeader()
