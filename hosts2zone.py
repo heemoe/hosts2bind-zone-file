@@ -11,7 +11,8 @@ targetZoneFile="/usr/local/named/var/rpz.zone"
 nameServer="ns1"
 # I don't know what the means of following fields. Just copied from others.
 domainName="pandadns.com"
-zoneSerial=datetime.datetime.strftime(datetime.datetime.now(), '%Y%m%d%H%M%S')
+# zoneSerial=datetime.datetime.strftime(datetime.datetime.now(), '%Y%m%d%H%M%S')
+zoneSerial="2015112401"
 refresh = "3H"
 retry = "15M"
 expiry = "1W"
@@ -82,6 +83,7 @@ if getChar == 'y':
     os.system('mv' + ' ' + targetZoneFile + ' ' + targetZoneFile + '.bak')
     os.system('mv' + ' ' + outputZoneFile + ' ' + targetZoneFile)
     os.system('echo replace done.')
-    os.system('service named restart')
+    # os.system('service named restart')
+    os.system('rndc reload')
 else:
-    os.system('echo process done. Please check your hosts.zone file.')
+    os.system('echo process done. Please check your hosts.zone file.:')
