@@ -59,7 +59,8 @@ for line in FILE:
     oneZone = str()
     try:
         if '#' in line[0]:
-            line = line.replace('#',';',1)
+            # line = line.replace('#',';',1)
+            continue
             oneZone = line
         elif len(line) == 0 and len(line) == 1:
             print('blank line')
